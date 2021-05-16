@@ -36,7 +36,7 @@ Click [here](http://ec2-18-141-24-108.ap-southeast-1.compute.amazonaws.com/tribe
 
 <br/>
 
-*versions*
+*Versions*
 
 - v0.80\
 Initial commit
