@@ -132,6 +132,11 @@
                 message = message + "- Last 3 digits of ID\n";
                 validated = false;
             }
+            else if (!jQuery("input#id_code").val().match(/^[0-9]+[a-zA-z]$/))
+            {
+                message = message + "- Last 3 digits of ID: Must be 2 numebr + 1 character\n";
+                validated = false;
+            }
 
             if (!validated)
             {
